@@ -1,0 +1,38 @@
+{
+  "name": "svg-inject",
+  "version": "0.0.0",
+  "description": "Replace an `<img>` element with an inline SVG.",
+  "main": "index.js",
+  "scripts": {
+    "test": "beefy demo.js:bundle.js"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "sliced": "0.0.5",
+    "xhr": "^1.6.1"
+  },
+  "devDependencies": {
+    "beefy": "^1.1.0",
+    "domready": "^1.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/svg-inject.git"
+  },
+  "keywords": [
+    "svg",
+    "inject",
+    "replace",
+    "inline",
+    "image",
+    "src",
+    "element",
+    "css",
+    "styling"
+  ],
+  "bugs": {
+    "url": "https://github.com/hughsk/svg-inject/issues"
+  },
+  "homepage": "https://github.com/hughsk/svg-inject"
+}
