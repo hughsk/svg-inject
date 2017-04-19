@@ -1,6 +1,6 @@
 {
   "name": "svg-inject",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Replace an `<img>` element with an inline SVG.",
   "main": "index.js",
   "scripts": {
