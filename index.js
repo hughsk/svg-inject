@@ -6,7 +6,7 @@ module.exports = inject
 
 
 function inject(element, callback) {
-  callback = callback || noop
+  callback = typeof callback === 'function' ? callback : noop
 
   var url = element.getAttribute('src')
   if (!url) return
